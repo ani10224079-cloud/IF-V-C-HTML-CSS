@@ -1,0 +1,105 @@
+/* 1. Type selector */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* 2. ID selector */
+#main-header {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* 3. Descendant selector */
+nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* 4. Pseudo-class selector */
+nav a:hover {
+  text-decoration: underline;
+  color: #93c5fd;
+}
+
+/* 5. Class selector (Section sebagai kartu) */
+section {
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* Tabel style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f3f4f6;
+}
+
+/* Gambar responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+/* Formulir style */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* 6. Grouping selector */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer style */
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  padding: 16px 0;
+}
